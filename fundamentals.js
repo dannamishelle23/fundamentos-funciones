@@ -33,6 +33,7 @@ let reviewGame = {
     "comentarios": "Excelente juego y entretenido"
 }
 
+//STRINGS - Manipulacion de datos
 let infoJuego = "https://store.steampowered.com/app/1601570/The_Alters/?l=spanish"
 console.log(infoJuego.length)             //Longitud de la URL (Propiedad)
 console.log(infoJuego.charAt(10))             // Metodo para obtener el caracter en la posición 10
@@ -46,7 +47,7 @@ paisOrigen.trim()                 // Eliminar espacios en blanco
 console.log(`El juego fue creado por ${desarrollador} en: ${paisOrigen}`)
 console.log(`El juego ${nombreJuego} estará disponible el 13 de junio del 2025.`); // Concatenar información
 
-//Numbers
+//Numbers - Manipulacion de datos
 let numeroVidas = "5"
 console.log(numeroVidas - 3)
 
@@ -56,7 +57,7 @@ console.log(typeof(numeroVidas))     // indica el tipo de operando
 
 //Orden de precedencia de los operadores aritmeticos
 let numeroNiveles = 10
-console.log(numeroNiveles * 2 ** 2)
+console.log(numeroNiveles * 2 ** 2)        // Output: 40
 
 // Booleanos
 let numAtaquesJugador = 2
@@ -70,6 +71,7 @@ console.log(numAtaquesJugador == numAtaquesEnemigo)
 console.log(numAtaquesJugador === numAtaquesEnemigo)
 
 
+//Condicionales
 const logrosDesbloqueados = ['Vidas infinitas', 'Mejora del avatar']
 let vidas = 5 
 if (vidas === 0) {
